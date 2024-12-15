@@ -15,6 +15,7 @@ int main() {
 
     auto document = std::make_unique<Document>();
     auto renderer = std::make_unique<Renderer>();
+    
     std::vector<std::pair<int, int>> points = {
         {1, 1},
         {5, 7},
